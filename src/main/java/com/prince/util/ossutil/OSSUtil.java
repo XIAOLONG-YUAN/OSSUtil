@@ -1,7 +1,5 @@
 package com.prince.util.ossutil;
 
-
-import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClient;
 import com.aliyun.oss.model.*;
 
@@ -19,7 +17,7 @@ public class OSSUtil {
 
 
     private OSSUtil(){
-        setEndpoint("http://oss-cn-hangzhou.aliyuncs.com");
+        setEndpoint("http://oss-cn-beijing.aliyuncs.com");
         setAccessKeyId("t3Sz8gjYBo4iE1pe");
         setAccessKeySecret("8NEikAXNSXPJtdsyabMA6LxtDyZgSW");
         setClient(new OSSClient(endpoint,accessKeyId,accessKeySecret));
@@ -41,6 +39,12 @@ public class OSSUtil {
     //是否存在这个仓库
     public boolean isExistBucket(String bucketName){
         return client.doesBucketExist(bucketName);
+    }
+
+    public String getRootUrl(String bucketName){
+        String location = client.getBucketLocation(bucketName);
+        String rootUrl = "http://"+bucketName+"."+location+".aliyuncs.com/";
+        return rootUrl;
     }
 
     //删除bucket仓库

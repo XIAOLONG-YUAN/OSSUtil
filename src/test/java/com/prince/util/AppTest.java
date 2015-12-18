@@ -38,10 +38,10 @@ public class AppTest
             System.out.println(object.getKey());
         }
     }*/
-    public void testDeleteBucket(){
+    /*public void testDeleteBucket(){
         OSSUtil ossUtil = OSSUtil.getInstance();
         ossUtil.deleteBucket("novelpic");
-    }
+    }*/
     /*public void testDelectObject(){
         OSSUtil ossUtil = OSSUtil.getInstance();
         ossUtil.deleteObject("novelpic","aaa/bbb/firstpic.jpg");
@@ -55,5 +55,11 @@ public class AppTest
         OSSUtil ossUtil = OSSUtil.getInstance();
         ossUtil.deleteAllObjects("novelpic");
     }*/
+
+    public void testLocationBucket(){
+        OSSUtil ossUtil = OSSUtil.getInstance();
+        String location = ossUtil.getRootUrl("gagaprince");
+        System.out.println(location);
+    }
 
 }
