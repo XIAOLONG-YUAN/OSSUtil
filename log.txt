@@ -1,0 +1,14 @@
+[2015-12-18 15:58:03] [WARN ] - [Server]Unable to execute HTTP request: The bucket you tried to delete is not empty.
+[ErrorCode]: BucketNotEmpty
+[RequestId]: 5673BC8B400C59260D949786
+[HostId]: novelpic.oss-cn-hangzhou.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>BucketNotEmpty</Code>
+  <Message>The bucket you tried to delete is not empty.</Message>
+  <RequestId>5673BC8B400C59260D949786</RequestId>
+  <HostId>novelpic.oss-cn-hangzhou.aliyuncs.com</HostId>
+  <BucketName>novelpic</BucketName>
+</Error>
+
