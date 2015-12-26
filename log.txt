@@ -12,3 +12,270 @@
   <BucketName>novelpic</BucketName>
 </Error>
 
+[2015-12-19 18:27:12] [WARN ] - [Server]Unable to execute HTTP request: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+[ErrorCode]: AccessDenied
+[RequestId]: 567530F425778427517416ED
+[HostId]: blog.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>567530F425778427517416ED</RequestId>
+  <HostId>blog.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>blog</Bucket>
+  <Endpoint>oss-cn-hangzhou.aliyuncs.com</Endpoint>
+</Error>
+
+[2015-12-19 18:45:10] [WARN ] - [Server]Unable to execute HTTP request: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+[ErrorCode]: AccessDenied
+[RequestId]: 5675352A4AA4F1EB6E9791FF
+[HostId]: blog.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>5675352A4AA4F1EB6E9791FF</RequestId>
+  <HostId>blog.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>blog</Bucket>
+  <Endpoint>oss-cn-hangzhou.aliyuncs.com</Endpoint>
+</Error>
+
+[2015-12-19 18:46:26] [WARN ] - [Server]Unable to execute HTTP request: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+[ErrorCode]: AccessDenied
+[RequestId]: 567535768C7624503F615D8E
+[HostId]: blog.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>567535768C7624503F615D8E</RequestId>
+  <HostId>blog.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>blog</Bucket>
+  <Endpoint>oss-cn-hangzhou.aliyuncs.com</Endpoint>
+</Error>
+
+[2015-12-19 18:50:26] [WARN ] - [Server]Unable to execute HTTP request: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+[ErrorCode]: AccessDenied
+[RequestId]: 567536654AA4F1EB6E99C170
+[HostId]: blog.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>567536654AA4F1EB6E99C170</RequestId>
+  <HostId>blog.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>blog</Bucket>
+  <Endpoint>oss-cn-hangzhou.aliyuncs.com</Endpoint>
+</Error>
+
+[2015-12-19 18:50:26] [WARN ] - [Server]Unable to execute HTTP request: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+[ErrorCode]: AccessDenied
+[RequestId]: 567536664AA4F1EB6E99C329
+[HostId]: blog.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>567536664AA4F1EB6E99C329</RequestId>
+  <HostId>blog.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>blog</Bucket>
+  <Endpoint>oss-cn-hangzhou.aliyuncs.com</Endpoint>
+</Error>
+
+[2015-12-19 18:53:22] [WARN ] - [Server]Unable to execute HTTP request: AccessDenied
+[ErrorCode]: AccessDenied
+[RequestId]: 56753714010B7A6921ECDD2C
+[HostId]: blog.oss-cn-hangzhou.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>AccessDenied</Message>
+  <RequestId>56753714010B7A6921ECDD2C</RequestId>
+  <HostId>blog.oss-cn-hangzhou.aliyuncs.com</HostId>
+</Error>
+
+[2015-12-19 18:53:22] [WARN ] - [Server]Unable to execute HTTP request: AccessDenied
+[ErrorCode]: AccessDenied
+[RequestId]: 56753716010B7A6921ECE26A
+[HostId]: blog.oss-cn-hangzhou.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>AccessDenied</Message>
+  <RequestId>56753716010B7A6921ECE26A</RequestId>
+  <HostId>blog.oss-cn-hangzhou.aliyuncs.com</HostId>
+</Error>
+
+[2015-12-19 18:58:49] [WARN ] - [Server]Unable to execute HTTP request: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+[ErrorCode]: AccessDenied
+[RequestId]: 5675385C4AA4F1EB6E9D1AA3
+[HostId]: blog.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>5675385C4AA4F1EB6E9D1AA3</RequestId>
+  <HostId>blog.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>blog</Bucket>
+  <Endpoint>oss-cn-hangzhou.aliyuncs.com</Endpoint>
+</Error>
+
+[2015-12-19 18:58:49] [WARN ] - [Server]Unable to execute HTTP request: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+[ErrorCode]: AccessDenied
+[RequestId]: 5675385D4AA4F1EB6E9D1CB0
+[HostId]: blog.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>5675385D4AA4F1EB6E9D1CB0</RequestId>
+  <HostId>blog.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>blog</Bucket>
+  <Endpoint>oss-cn-hangzhou.aliyuncs.com</Endpoint>
+</Error>
+
+[2015-12-19 18:59:46] [WARN ] - [Server]Unable to execute HTTP request: AccessDenied
+[ErrorCode]: AccessDenied
+[RequestId]: 5675389644F4D89C37F27CEE
+[HostId]: blog.oss-cn-hangzhou.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>AccessDenied</Message>
+  <RequestId>5675389644F4D89C37F27CEE</RequestId>
+  <HostId>blog.oss-cn-hangzhou.aliyuncs.com</HostId>
+</Error>
+
+[2015-12-19 18:59:46] [WARN ] - [Server]Unable to execute HTTP request: AccessDenied
+[ErrorCode]: AccessDenied
+[RequestId]: 5675389644F4D89C37F27D42
+[HostId]: blog.oss-cn-hangzhou.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>AccessDenied</Message>
+  <RequestId>5675389644F4D89C37F27D42</RequestId>
+  <HostId>blog.oss-cn-hangzhou.aliyuncs.com</HostId>
+</Error>
+
+[2015-12-19 19:02:28] [WARN ] - [Server]Unable to execute HTTP request: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+[ErrorCode]: AccessDenied
+[RequestId]: 567539382577842751825C39
+[HostId]: blog.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>567539382577842751825C39</RequestId>
+  <HostId>blog.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>blog</Bucket>
+  <Endpoint>oss-cn-hangzhou.aliyuncs.com</Endpoint>
+</Error>
+
+[2015-12-19 19:02:28] [WARN ] - [Server]Unable to execute HTTP request: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+[ErrorCode]: AccessDenied
+[RequestId]: 567539382577842751825C9C
+[HostId]: blog.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>567539382577842751825C9C</RequestId>
+  <HostId>blog.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>blog</Bucket>
+  <Endpoint>oss-cn-hangzhou.aliyuncs.com</Endpoint>
+</Error>
+
+[2015-12-19 19:03:48] [WARN ] - [Server]Unable to execute HTTP request: AccessDenied
+[ErrorCode]: AccessDenied
+[RequestId]: 56753988400C59260DF77204
+[HostId]: blog.oss-cn-hangzhou.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>AccessDenied</Message>
+  <RequestId>56753988400C59260DF77204</RequestId>
+  <HostId>blog.oss-cn-hangzhou.aliyuncs.com</HostId>
+</Error>
+
+[2015-12-19 19:03:48] [WARN ] - [Server]Unable to execute HTTP request: AccessDenied
+[ErrorCode]: AccessDenied
+[RequestId]: 56753988400C59260DF772A8
+[HostId]: blog.oss-cn-hangzhou.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>AccessDenied</Message>
+  <RequestId>56753988400C59260DF772A8</RequestId>
+  <HostId>blog.oss-cn-hangzhou.aliyuncs.com</HostId>
+</Error>
+
+[2015-12-19 19:08:55] [WARN ] - [Server]Unable to execute HTTP request: AccessDenied
+[ErrorCode]: AccessDenied
+[RequestId]: 56753ABB1BA6042916EEC5F0
+[HostId]: blog.oss-cn-hangzhou.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>AccessDenied</Message>
+  <RequestId>56753ABB1BA6042916EEC5F0</RequestId>
+  <HostId>blog.oss-cn-hangzhou.aliyuncs.com</HostId>
+</Error>
+
+[2015-12-19 19:08:55] [WARN ] - [Server]Unable to execute HTTP request: AccessDenied
+[ErrorCode]: AccessDenied
+[RequestId]: 56753ABB1BA6042916EEC662
+[HostId]: blog.oss-cn-hangzhou.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>AccessDenied</Message>
+  <RequestId>56753ABB1BA6042916EEC662</RequestId>
+  <HostId>blog.oss-cn-hangzhou.aliyuncs.com</HostId>
+</Error>
+
+[2015-12-19 19:10:27] [WARN ] - [Server]Unable to execute HTTP request: The requested bucket name is not available. The bucket namespace is shared by all users of the system. Please select a different name and try again.
+[ErrorCode]: BucketAlreadyExists
+[RequestId]: 56753B16B8DE43194FE7F8E8
+[HostId]: blog.oss-cn-hangzhou.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>BucketAlreadyExists</Code>
+  <Message>The requested bucket name is not available. The bucket namespace is shared by all users of the system. Please select a different name and try again.</Message>
+  <RequestId>56753B16B8DE43194FE7F8E8</RequestId>
+  <HostId>blog.oss-cn-hangzhou.aliyuncs.com</HostId>
+  <BucketName>blog</BucketName>
+</Error>
+
+[2015-12-19 19:11:17] [WARN ] - [Server]Unable to execute HTTP request: The requested bucket name is not available. The bucket namespace is shared by all users of the system. Please select a different name and try again.
+[ErrorCode]: BucketAlreadyExists
+[RequestId]: 56753B49CA2A04462FB55A8B
+[HostId]: blog.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>BucketAlreadyExists</Code>
+  <Message>The requested bucket name is not available. The bucket namespace is shared by all users of the system. Please select a different name and try again.</Message>
+  <RequestId>56753B49CA2A04462FB55A8B</RequestId>
+  <HostId>blog.oss-cn-beijing.aliyuncs.com</HostId>
+  <BucketName>blog</BucketName>
+</Error>
+

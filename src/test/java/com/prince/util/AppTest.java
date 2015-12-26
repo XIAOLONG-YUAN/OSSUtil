@@ -17,16 +17,16 @@ public class AppTest
 {
     /*public void testCreateBucket(){
         OSSUtil ossUtil = OSSUtil.getInstance();
-        ossUtil.createBucket("novelpic");
+        ossUtil.createBucket("gagablog");
     }*/
 
-   /* public void testUploadFile(){
+    public void testUploadFile(){
         OSSUtil ossUtil = OSSUtil.getInstance();
-        ossUtil.uploadFile("novelpic","aaa/firstpic.jpg","D:\\temp\\gagalulu\\364644651643068498.jpg");
-        ossUtil.uploadFile("novelpic","bbb/firstpic.jpg","D:\\temp\\gagalulu\\364644651643068498.jpg");
-        ossUtil.uploadFile("novelpic","aaa/bbb/firstpic.jpg","D:\\temp\\gagalulu\\364644651643068498.jpg");
-        ossUtil.uploadFile("novelpic","firstpic.jpg","D:\\temp\\gagalulu\\364644651643068498.jpg");
-    }*/
+        String bucketName = "gagablog";
+//        ossUtil.createFold(bucketName, "photo/");
+        ossUtil.uploadFile(bucketName, "daily/xue.jpg", "/Users/gagaprince/work/templet/blacktime/xue.jpg");
+        //http://gagablog.oss-cn-beijing.aliyuncs.com/daily/daily03.jpg
+    }
     /*public void testCreateFold(){
         OSSUtil ossUtil = OSSUtil.getInstance();
         ossUtil.createFold("novelpic","aaa/bbb/");
@@ -56,10 +56,10 @@ public class AppTest
         ossUtil.deleteAllObjects("novelpic");
     }*/
 
-    public void testLocationBucket(){
-        OSSUtil ossUtil = OSSUtil.getInstance();
-        String location = ossUtil.getRootUrl("gagaprince");
-        System.out.println(location);
-    }
+//    public void testLocationBucket(){
+//        OSSUtil ossUtil = OSSUtil.getInstance();
+//        String location = ossUtil.getRootUrl("gagaprince");
+//        System.out.println(location);
+//    }
 
 }
