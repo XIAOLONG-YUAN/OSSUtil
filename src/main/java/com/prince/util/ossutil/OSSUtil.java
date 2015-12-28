@@ -18,8 +18,8 @@ public class OSSUtil {
 
     private OSSUtil(){
         setEndpoint("http://oss-cn-beijing.aliyuncs.com");
-        setAccessKeyId("t3Sz8gjYBo4iE1pe");
-        setAccessKeySecret("8NEikAXNSXPJtdsyabMA6LxtDyZgSW");
+        setAccessKeyId("BoMkikCRXBONHskA");
+        setAccessKeySecret("IfikclacPiTRHdb8PuY0uxcUq5uMwq");
         setClient(new OSSClient(endpoint,accessKeyId,accessKeySecret));
     }
     public static OSSUtil ossUtil;
@@ -82,13 +82,19 @@ public class OSSUtil {
         InputStream in = null;
         try {
             in = new FileInputStream(f);
-            ObjectMetadata metadata = new ObjectMetadata();
-            metadata.setContentLength(f.length());
-            PutObjectResult result = client.putObject(bucketName,key,in,metadata);
-            System.out.println(result.getETag());
+            uploadFile(bucketName,key,in,f.length());
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-        }finally {
+        }
+
+    }
+
+    public void uploadFile(String bucketName,String key,InputStream in,long length){
+        try {
+            ObjectMetadata metadata = new ObjectMetadata();
+            metadata.setContentLength(length);
+            PutObjectResult result = client.putObject(bucketName,key,in,metadata);
+        } finally {
             if(in!=null){
                 try {
                     in.close();

@@ -17,19 +17,15 @@ public class AppTest
 {
     /*public void testCreateBucket(){
         OSSUtil ossUtil = OSSUtil.getInstance();
-        ossUtil.createBucket("novelpic");
+        ossUtil.createBucket("gagablog");
     }*/
 
     public void testUploadFile(){
-        OSSUtil ossUtil = OSSUtil.getInstance();
-        String bucketName = "gagablog";
-        ossUtil.uploadFile(bucketName,"feteji/menu.zip","D:\\work\\myselfwork\\texiao\\menu.zip");
-        ossUtil.uploadFile(bucketName,"feteji/menu/index.html","D:\\work\\myselfwork\\texiao\\menu\\index.html");
-        ossUtil.uploadFile(bucketName,"feteji/menu/css/comom.css","D:\\work\\myselfwork\\texiao\\menu\\css\\comom.css");
-        ossUtil.uploadFile(bucketName,"feteji/menu/js/nav.js","D:\\work\\myselfwork\\texiao\\menu\\js\\nav.js");
-        ossUtil.uploadFile(bucketName,"feteji/menu/img/xu0zS7g.jpg","D:\\work\\myselfwork\\texiao\\menu\\img\\xu0zS7g.jpg");
-        ossUtil.uploadFile(bucketName,"feteji/menu/font/fontawesome-webfont.eot","D:\\work\\myselfwork\\texiao\\menu\\fonts\\fontawesome-webfont.eot");
-        ossUtil.uploadFile(bucketName,"feteji/menu/font/fontawesome-webfont.woff","D:\\work\\myselfwork\\texiao\\menu\\fonts\\fontawesome-webfont.woff");
+//        OSSUtil ossUtil = OSSUtil.getInstance();
+//        String bucketName = "gagablog";
+//        ossUtil.createFold(bucketName, "photo/");
+        //ossUtil.uploadFile(bucketName, "daily/xue.jpg", "/Users/gagaprince/work/templet/blacktime/xue.jpg");
+        //http://gagablog.oss-cn-beijing.aliyuncs.com/daily/daily03.jpg
     }
     /*public void testCreateFold(){
         OSSUtil ossUtil = OSSUtil.getInstance();
@@ -59,7 +55,7 @@ public class AppTest
         OSSUtil ossUtil = OSSUtil.getInstance();
         ossUtil.deleteAllObjects("novelpic");
     }*/
-
+    
     /*public void testLocationBucket(){
         OSSUtil ossUtil = OSSUtil.getInstance();
         String location = ossUtil.getRootUrl("gagaprince");
