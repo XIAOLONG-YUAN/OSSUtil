@@ -32,7 +32,6 @@ public class OSSUtil {
 
     //创建一个bucket实例
     public void createBucket(String bucketName){
-        if (isExistBucket(bucketName))return;
         client.createBucket(bucketName);
         client.setBucketAcl(bucketName, CannedAccessControlList.PublicRead);
     }

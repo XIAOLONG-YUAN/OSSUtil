@@ -20,13 +20,17 @@ public class AppTest
         ossUtil.createBucket("novelpic");
     }*/
 
-   /* public void testUploadFile(){
+    public void testUploadFile(){
         OSSUtil ossUtil = OSSUtil.getInstance();
-        ossUtil.uploadFile("novelpic","aaa/firstpic.jpg","D:\\temp\\gagalulu\\364644651643068498.jpg");
-        ossUtil.uploadFile("novelpic","bbb/firstpic.jpg","D:\\temp\\gagalulu\\364644651643068498.jpg");
-        ossUtil.uploadFile("novelpic","aaa/bbb/firstpic.jpg","D:\\temp\\gagalulu\\364644651643068498.jpg");
-        ossUtil.uploadFile("novelpic","firstpic.jpg","D:\\temp\\gagalulu\\364644651643068498.jpg");
-    }*/
+        String bucketName = "gagablog";
+        ossUtil.uploadFile(bucketName,"feteji/menu.zip","D:\\work\\myselfwork\\texiao\\menu.zip");
+        ossUtil.uploadFile(bucketName,"feteji/menu/index.html","D:\\work\\myselfwork\\texiao\\menu\\index.html");
+        ossUtil.uploadFile(bucketName,"feteji/menu/css/comom.css","D:\\work\\myselfwork\\texiao\\menu\\css\\comom.css");
+        ossUtil.uploadFile(bucketName,"feteji/menu/js/nav.js","D:\\work\\myselfwork\\texiao\\menu\\js\\nav.js");
+        ossUtil.uploadFile(bucketName,"feteji/menu/img/xu0zS7g.jpg","D:\\work\\myselfwork\\texiao\\menu\\img\\xu0zS7g.jpg");
+        ossUtil.uploadFile(bucketName,"feteji/menu/font/fontawesome-webfont.eot","D:\\work\\myselfwork\\texiao\\menu\\fonts\\fontawesome-webfont.eot");
+        ossUtil.uploadFile(bucketName,"feteji/menu/font/fontawesome-webfont.woff","D:\\work\\myselfwork\\texiao\\menu\\fonts\\fontawesome-webfont.woff");
+    }
     /*public void testCreateFold(){
         OSSUtil ossUtil = OSSUtil.getInstance();
         ossUtil.createFold("novelpic","aaa/bbb/");
@@ -56,10 +60,10 @@ public class AppTest
         ossUtil.deleteAllObjects("novelpic");
     }*/
 
-    public void testLocationBucket(){
+    /*public void testLocationBucket(){
         OSSUtil ossUtil = OSSUtil.getInstance();
         String location = ossUtil.getRootUrl("gagaprince");
         System.out.println(location);
-    }
+    }*/
 
 }

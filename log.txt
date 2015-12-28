@@ -12,3 +12,33 @@
   <BucketName>novelpic</BucketName>
 </Error>
 
+[2015-12-24 13:50:57] [WARN ] - [Server]Unable to execute HTTP request: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+[ErrorCode]: AccessDenied
+[RequestId]: 567B87C1A9929D026026B844
+[HostId]: blog.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>567B87C1A9929D026026B844</RequestId>
+  <HostId>blog.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>blog</Bucket>
+  <Endpoint>oss-cn-hangzhou.aliyuncs.com</Endpoint>
+</Error>
+
+[2015-12-24 13:51:32] [WARN ] - [Server]Unable to execute HTTP request: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+[ErrorCode]: AccessDenied
+[RequestId]: 567B87E441CEEDA86E24BE9A
+[HostId]: blog.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+  <RequestId>567B87E441CEEDA86E24BE9A</RequestId>
+  <HostId>blog.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>blog</Bucket>
+  <Endpoint>oss-cn-hangzhou.aliyuncs.com</Endpoint>
+</Error>
+
